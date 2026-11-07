@@ -129,4 +129,4 @@ venv/bin/python -m unittest discover -s tests
 
 ## Licence
 
-À définir.
+MIT. Voir [LICENSE](LICENSE).
