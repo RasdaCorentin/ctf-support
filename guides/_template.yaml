@@ -1,0 +1,19 @@
+# Copie de référence. Le chargeur ignore ce fichier (il n'est pas dans un sous-dossier de catégorie).
+#
+# Un fichier par challenge : guides/<categorie>/<dossier>.yaml.
+# Ni flag, ni mot de passe, ni clé, ni offset exact, ni payload complet.
+# Écrire comme si un joueur pouvait lire tout le fichier : il doit lui rester le travail technique.
+# 6 étapes au plus, 200 caractères au plus par champ rédigé. Sinon le guide est ignoré.
+title: "Titre du challenge"
+category: web
+description: "Énoncé public."
+reviewed: false
+forbidden:
+  - "la valeur du mot de passe administrateur"
+steps:
+  - id: reperer
+    goal: "Ce que le joueur doit comprendre ou obtenir."
+    signs: ["ce qu'il dit quand il en est là", "ce qu'il a déjà essayé"]
+    nudge: "Une question ou une piste, sans la réponse."
+    pitfalls:
+      - "symptôme observé → cause probable"

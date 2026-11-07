@@ -1,0 +1,2 @@
+#!/bin/sh
+echo FIXTURE_SOLUTION_MARKER

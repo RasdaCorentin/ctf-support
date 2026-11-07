@@ -1,0 +1,10 @@
+# État local du bot (progression des joueurs, journal des tickets) : données personnelles, jamais versionnées
+state/
+__pycache__/
+.env
+.venv/
+env-temp.md
+venv/
+
+# Worktrees des agents (un par lot, voir CONVENTION.md)
+.claude/worktrees/

@@ -1,0 +1,4 @@
+name: "Cookie maison"
+description: "Un panneau d'administration réservé aux membres. Trouvez le mot de passe."
+flags:
+  - bsides{FIXTURE_SECRET_1}

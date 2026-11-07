@@ -1,0 +1,3 @@
+name: "Fichier embarqué"
+description: "Un fichier est embarqué dans la page."
+content: !filecontents secret.txt
